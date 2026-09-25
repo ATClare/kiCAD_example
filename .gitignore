@@ -1,0 +1,11 @@
+.tools/
+.history/
+.pio/
+__pycache__/
+firmware/include/secrets.h
+*.kicad_prl
+*.kicad_sch.lck
+tests/*.exe
+tests/*.pdb
+tests/*.obj
+deliverables/

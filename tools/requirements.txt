@@ -1,0 +1,4 @@
+cadquery==2.8.0
+platformio==6.2.0
+playwright==1.63.0
+ziglang==0.16.0

@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\aclare02\OneDrive - UBC\Desktop\kiCAD_example\electronics\soil_valve.kicad_sch</source>
+    <date>2026-09-25T14:02:49</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESP32 Soil Moisture / Servo Valve</title>
+        <company>Engineering prototype — hardware validation required</company>
+        <rev>A</rev>
+        <date>2026-09-25</date>
+        <source>soil_valve.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1000 uF / 10 V (+ at 1)</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="C" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7d87fb8-1204-4ec5-b421-0d0541dff98d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>10 uF / 10 V</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="C" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4efa1466-1a9a-4d29-ac39-1ad6ac46ef18</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100 nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="C" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae2fa35f-2a67-4f2d-aec5-b8a49a93440e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100 nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="C" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ecdd06e-69b0-4399-9cad-2ae69b1fa514</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100 nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="C" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3f2a8a3-4c6e-499f-a903-67e3d4f90e52</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100 nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="C" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0780dc4-abc1-474d-8373-840292a8477a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>GREEN</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="LED" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6c9c446-c676-4c65-96e4-221c9a6744cc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>AMBER</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="LED" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b679434-4cee-43fe-9322-287e4330bee3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>RED</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="LED" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1dad78e7-73c5-4c5d-8eef-cdd34fe9ff11</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>2 A fast fuse</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="Fuse" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58c017ea-02af-4820-bd82-5728bffd4409</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>5 V INPUT</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="Conn2" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1ba282d-fc2c-4319-9c2f-93430fc31ab3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>PROBE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="Conn3" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>342af471-c212-4200-b0e2-e9e451ff9ea0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>SERVO</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="Conn3" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a35cda9-692b-45a7-a616-6a71a26f2336</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>NC STOP LOOP</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="Conn2" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e610fcd-0838-40be-94b6-1015b7999dfe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP1">
+      <value>RUN link</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="Link" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b849ac8-f1d2-42fb-9325-ada955d15f5d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k 1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="R" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3311a963-a9bb-4490-b8ae-085c46c68f93</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>20k 1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="R" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65462122-41d3-43f2-b94c-decb288de195</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="R" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f87bf571-e26c-42d6-945a-426aec202159</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>220R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="R" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>926468b8-7c2c-4b21-b74c-c3f67d096b66</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>680R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="R" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6fafdb2-eb38-4353-a5f1-48b076383770</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>680R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="R" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>629f4d0b-ef4d-48ea-979d-d8fc92c2af28</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>680R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="R" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84a34b6e-3907-48af-b9d8-86ce4d089bb6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="R" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed783671-5378-452d-829e-fc8c92a83008</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="R" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6692d45-f51e-4357-a364-489ff4a6a7ce</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>POWER switch</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="Link" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>375b1bc6-753a-4927-87be-23d9587d8d03</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-DevKitC V4</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="DevKitC_V4" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5761c938-38c4-4ed1-bcc9-1260a67cd8bd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="J2.1"/>
+            <pin num="J2.2"/>
+            <pin num="J2.3"/>
+            <pin num="J2.4"/>
+            <pin num="J2.5"/>
+            <pin num="J2.6"/>
+            <pin num="J2.7"/>
+            <pin num="J2.8"/>
+            <pin num="J2.9"/>
+            <pin num="J2.10"/>
+            <pin num="J2.11"/>
+            <pin num="J2.12"/>
+            <pin num="J2.13"/>
+            <pin num="J2.14"/>
+            <pin num="J2.15"/>
+            <pin num="J2.16"/>
+            <pin num="J2.17"/>
+            <pin num="J2.18"/>
+            <pin num="J2.19"/>
+            <pin num="J3.1"/>
+            <pin num="J3.2"/>
+            <pin num="J3.3"/>
+            <pin num="J3.4"/>
+            <pin num="J3.5"/>
+            <pin num="J3.6"/>
+            <pin num="J3.7"/>
+            <pin num="J3.8"/>
+            <pin num="J3.9"/>
+            <pin num="J3.10"/>
+            <pin num="J3.11"/>
+            <pin num="J3.12"/>
+            <pin num="J3.13"/>
+            <pin num="J3.14"/>
+            <pin num="J3.15"/>
+            <pin num="J3.16"/>
+            <pin num="J3.17"/>
+            <pin num="J3.18"/>
+            <pin num="J3.19"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>SN74AHCT1G125DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Soil" part="AHCT125" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="soil_valve.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0558c973-eaeb-45f5-b11d-90f004ffd18b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Soil" part="AHCT125">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AHCT125</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="~{OE}" type="input"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil" part="C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil" part="Conn2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conn2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil" part="Conn3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conn3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil" part="DevKitC_V4">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DevKitC_V4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="J2.1" name="3V3" type="power_out"/>
+        <pin num="J2.2" name="EN" type="input"/>
+        <pin num="J2.3" name="VP" type="input"/>
+        <pin num="J2.4" name="VN" type="input"/>
+        <pin num="J2.5" name="IO34" type="input"/>
+        <pin num="J2.6" name="IO35" type="input"/>
+        <pin num="J2.7" name="IO32" type="bidirectional"/>
+        <pin num="J2.8" name="IO33" type="bidirectional"/>
+        <pin num="J2.9" name="IO25" type="bidirectional"/>
+        <pin num="J2.10" name="IO26" type="bidirectional"/>
+        <pin num="J2.11" name="IO27" type="bidirectional"/>
+        <pin num="J2.12" name="IO14" type="bidirectional"/>
+        <pin num="J2.13" name="IO12" type="bidirectional"/>
+        <pin num="J2.14" name="GND" type="power_in"/>
+        <pin num="J2.15" name="IO13" type="bidirectional"/>
+        <pin num="J2.16" name="D2" type="bidirectional"/>
+        <pin num="J2.17" name="D3" type="bidirectional"/>
+        <pin num="J2.18" name="CMD" type="bidirectional"/>
+        <pin num="J2.19" name="5V" type="power_in"/>
+        <pin num="J3.1" name="GND" type="power_in"/>
+        <pin num="J3.2" name="IO23" type="bidirectional"/>
+        <pin num="J3.3" name="IO22" type="bidirectional"/>
+        <pin num="J3.4" name="TX" type="bidirectional"/>
+        <pin num="J3.5" name="RX" type="bidirectional"/>
+        <pin num="J3.6" name="IO21" type="bidirectional"/>
+        <pin num="J3.7" name="GND" type="power_in"/>
+        <pin num="J3.8" name="IO19" type="bidirectional"/>
+        <pin num="J3.9" name="IO18" type="bidirectional"/>
+        <pin num="J3.10" name="IO5" type="bidirectional"/>
+        <pin num="J3.11" name="IO17" type="bidirectional"/>
+        <pin num="J3.12" name="IO16" type="bidirectional"/>
+        <pin num="J3.13" name="IO4" type="bidirectional"/>
+        <pin num="J3.14" name="IO0" type="bidirectional"/>
+        <pin num="J3.15" name="IO2" type="bidirectional"/>
+        <pin num="J3.16" name="IO15" type="bidirectional"/>
+        <pin num="J3.17" name="D1" type="bidirectional"/>
+        <pin num="J3.18" name="D0" type="bidirectional"/>
+        <pin num="J3.19" name="CLK" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil" part="Fuse">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil" part="LED">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil" part="Link">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Link</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil" part="R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Soil">
+      <uri>${KIPRJMOD}/Soil.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="J2.1" pinfunction="3V3_J2.1" pintype="power_out"/>
+    </net>
+    <net code="2" name="/+5V" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="JP1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+    </net>
+    <net code="3" name="/ADC_MV" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="J2.5" pinfunction="IO34_J2.5" pintype="input"/>
+    </net>
+    <net code="4" name="/A_AMBER" class="Default">
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/A_GREEN" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/A_RED" class="Default">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/FUSED_5V" class="Default">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="J2.14" pinfunction="GND_J2.14" pintype="power_in"/>
+      <node ref="U1" pin="J3.1" pinfunction="GND_J3.1" pintype="power_in"/>
+      <node ref="U1" pin="J3.7" pinfunction="GND_J3.7" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="~{OE}_1" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="GND_3" pintype="power_in"/>
+    </net>
+    <net code="9" name="/LED_AMBER" class="Default">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="J2.10" pinfunction="IO26_J2.10" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/LED_GREEN" class="Default">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="J2.9" pinfunction="IO25_J2.9" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/LED_RED" class="Default">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="J2.7" pinfunction="IO32_J2.7" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/MCU_5V" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="J2.19" pinfunction="5V_J2.19" pintype="power_in"/>
+    </net>
+    <net code="13" name="/PROBE_OUT" class="Default">
+      <node ref="J2" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/PWM_3V3" class="Default">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="J3.9" pinfunction="IO18_J3.9" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="A_2" pintype="input"/>
+    </net>
+    <net code="15" name="/PWM_5V" class="Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="Y_4" pintype="output"/>
+    </net>
+    <net code="16" name="/SERVO_SIG" class="Default">
+      <node ref="J3" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="/STOP_GPIO" class="Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="J2.11" pinfunction="IO27_J2.11" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/STOP_SW" class="Default">
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="/VIN_5V" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(U1-CLK-PadJ3.19)" class="Default">
+      <node ref="U1" pin="J3.19" pinfunction="CLK_J3.19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-CMD-PadJ2.18)" class="Default">
+      <node ref="U1" pin="J2.18" pinfunction="CMD_J2.18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-D0-PadJ3.18)" class="Default">
+      <node ref="U1" pin="J3.18" pinfunction="D0_J3.18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-D1-PadJ3.17)" class="Default">
+      <node ref="U1" pin="J3.17" pinfunction="D1_J3.17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-D2-PadJ2.16)" class="Default">
+      <node ref="U1" pin="J2.16" pinfunction="D2_J2.16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-D3-PadJ2.17)" class="Default">
+      <node ref="U1" pin="J2.17" pinfunction="D3_J2.17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-EN-PadJ2.2)" class="Default">
+      <node ref="U1" pin="J2.2" pinfunction="EN_J2.2" pintype="input+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-IO0-PadJ3.14)" class="Default">
+      <node ref="U1" pin="J3.14" pinfunction="IO0_J3.14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-IO2-PadJ3.15)" class="Default">
+      <node ref="U1" pin="J3.15" pinfunction="IO2_J3.15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-IO4-PadJ3.13)" class="Default">
+      <node ref="U1" pin="J3.13" pinfunction="IO4_J3.13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-IO5-PadJ3.10)" class="Default">
+      <node ref="U1" pin="J3.10" pinfunction="IO5_J3.10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-IO12-PadJ2.13)" class="Default">
+      <node ref="U1" pin="J2.13" pinfunction="IO12_J2.13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-IO13-PadJ2.15)" class="Default">
+      <node ref="U1" pin="J2.15" pinfunction="IO13_J2.15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-IO14-PadJ2.12)" class="Default">
+      <node ref="U1" pin="J2.12" pinfunction="IO14_J2.12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-IO15-PadJ3.16)" class="Default">
+      <node ref="U1" pin="J3.16" pinfunction="IO15_J3.16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-IO16-PadJ3.12)" class="Default">
+      <node ref="U1" pin="J3.12" pinfunction="IO16_J3.12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-IO17-PadJ3.11)" class="Default">
+      <node ref="U1" pin="J3.11" pinfunction="IO17_J3.11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-IO19-PadJ3.8)" class="Default">
+      <node ref="U1" pin="J3.8" pinfunction="IO19_J3.8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-IO21-PadJ3.6)" class="Default">
+      <node ref="U1" pin="J3.6" pinfunction="IO21_J3.6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-IO22-PadJ3.3)" class="Default">
+      <node ref="U1" pin="J3.3" pinfunction="IO22_J3.3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-IO23-PadJ3.2)" class="Default">
+      <node ref="U1" pin="J3.2" pinfunction="IO23_J3.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-IO33-PadJ2.8)" class="Default">
+      <node ref="U1" pin="J2.8" pinfunction="IO33_J2.8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-IO35-PadJ2.6)" class="Default">
+      <node ref="U1" pin="J2.6" pinfunction="IO35_J2.6" pintype="input+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-RX-PadJ3.5)" class="Default">
+      <node ref="U1" pin="J3.5" pinfunction="RX_J3.5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-TX-PadJ3.4)" class="Default">
+      <node ref="U1" pin="J3.4" pinfunction="TX_J3.4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-VN-PadJ2.4)" class="Default">
+      <node ref="U1" pin="J2.4" pinfunction="VN_J2.4" pintype="input+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-VP-PadJ2.3)" class="Default">
+      <node ref="U1" pin="J2.3" pinfunction="VP_J2.3" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

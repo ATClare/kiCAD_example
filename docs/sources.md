@@ -1,0 +1,12 @@
+# Primary references
+
+Reviewed 2026-09-25. Product specifications below guide the selected design; purchased units and revision-specific drawings must be checked before assembly.
+
+1. [Espressif ESP32-DevKitC V4 user guide](https://documentation.espressif.com/esp-dev-kits/en/latest/esp32/esp32-devkitc/user_guide.html): exact J2/J3 pin numbering, supported module variants, and mutually exclusive USB / 5 V / 3.3 V supply methods. [Manufacturer schematic PDF](https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch.pdf).
+2. [DFRobot SEN0193 documentation](https://wiki.dfrobot.com/sen0193): capacitive probe connections, nominal supply range 3.3–5.5 V and specified analog output up to 3.0 V. The project uses a 3.3 V supply and a divider; measured calibration is still required. The [product page](https://www.dfrobot.com/product-1385.html) lists typical output information that differs from the wiki's full-range statement; the design conservatively uses the larger range.
+3. [TI SN74AHCT1G125 product page](https://www.ti.com/product/SN74AHCT1G125) and [datasheet](https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf): 4.5–5.5 V operation, TTL-compatible input, active-low output enable, and five-pin package assignment. These support the 3.3 V to 5 V servo signal translation.
+4. [Hitec HS-311 manufacturer page](https://www.hiteccs.com/actuators/product-details/HS-311) and [HS-311 specification sheet](https://www.hiteccs.com/public/uploads/data_sheet/HCS_HS-311_Specsheetv2.2_102-1729889658.pdf): 4.8–6.0 V supply, approximately 40 × 20 × 36.5 mm body, 24T horn, nominal 900–2100 µs control range, current/torque data. Bracket flange fit and mechanical travel require checking on the actual unit.
+5. [Espressif Arduino ADC API](https://docs.espressif.com/projects/arduino-esp32/en/latest/api/adc.html): millivolt reading and attenuation concepts. The build's pinned framework source is the version-specific API authority.
+6. [Espressif LEDC API](https://docs.espressif.com/projects/arduino-esp32/en/latest/api/ledc.html) and [2.x to 3.0 migration guide](https://docs.espressif.com/projects/arduino-esp32/en/latest/migration_guides/2.x_to_3.0.html): the current documentation describes a different LEDC setup API than the pinned Arduino 2.0.17 implementation. Do not silently upgrade the framework without adapting and validating PWM behavior.
+
+Software package versions, generated-artifact evidence, and limitations are listed in [verification.md](verification.md). No simulated graph is presented as measured plant data.

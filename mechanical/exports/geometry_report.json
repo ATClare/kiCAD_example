@@ -1,0 +1,56 @@
+{
+  "base": {
+    "valid_solid": true,
+    "solid_count": 1,
+    "volume_mm3": 130495.24,
+    "bounds_mm": [
+      140.0,
+      100.0,
+      55.0
+    ]
+  },
+  "lid": {
+    "valid_solid": true,
+    "solid_count": 1,
+    "volume_mm3": 41930.28,
+    "bounds_mm": [
+      140.0,
+      100.0,
+      6.0
+    ]
+  },
+  "carrier_drill_template": {
+    "valid_solid": true,
+    "solid_count": 1,
+    "volume_mm3": 9541.89,
+    "bounds_mm": [
+      100.0,
+      60.0,
+      1.6
+    ]
+  },
+  "servo_bracket": {
+    "valid_solid": true,
+    "solid_count": 1,
+    "volume_mm3": 33701.86,
+    "bounds_mm": [
+      96.0,
+      44.0,
+      44.0
+    ]
+  },
+  "linkage_plate": {
+    "valid_solid": true,
+    "solid_count": 1,
+    "volume_mm3": 2154.14,
+    "bounds_mm": [
+      55.0,
+      12.0,
+      4.0
+    ]
+  },
+  "assembly": {
+    "base_lid_interference_mm3": 0,
+    "nominal_lid_rail_clearance_mm": 0.3
+  }
+}

@@ -1,0 +1,4 @@
+seconds_since_boot,relative_moisture_pct,adc_mv,valve_command_open
+60,40,1300,false
+120,,0,false
+180,28.5,1386,false
